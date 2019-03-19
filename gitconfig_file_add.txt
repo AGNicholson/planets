@@ -1,0 +1,48 @@
+    1  git config --global user.name "Aaron Nicholson"
+    2  git config --global user.email "agnicholson@live.com"
+    3  git config --global core.editor "nano -w"
+    4  git config --global core.autoclrf true
+    5  git config --list
+    6  history >> git_config.txt
+    7  clear
+    8  git config -h
+    9  echo Miguel is a punk
+   10  pwd
+   11  mkdir planet
+   12  mkdir planets
+   13  rm -r -i planet
+   14  cd planets/
+   15  cd ..
+   16  cd planets/
+   17  git init
+   18  ls
+   19  ls -a
+   20  echo do NOT delete the .git directory because this will delete ALL of the information in this repository.
+   21  git status
+   22  cd ..
+   23  cd planets/
+   24  mkdir moons
+   25  cd moons
+   26  git init
+   27  ls -a
+   28  echo you do NOT want to make a repository within a repository!
+   29  cd ..
+   30  cd moons
+   31  rm -rf -i .git/
+   32  rm -rf -i .*
+   33  ls -a
+   34  rm -rf -i .git/
+   35  y
+   36  ls -a
+   37  cd ..
+   38  ls -a
+   39  nano mars.txt
+   40  ls
+   41  ls -a
+   42  cat mars.txt 
+   43  git status
+   44  git add mars.txt 
+   45  git status 
+   46  echo Git commit will ask for a short description (<50 characters) of what was changed.
+   47  git commit -m "Start notes on mars as a base"
+   48  history >> gitconfig_file_add.txt
